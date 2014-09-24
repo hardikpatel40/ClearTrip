@@ -54,12 +54,7 @@ public class TestBase {
 		OR.load(fp1);
 		
 		System.out.println("Choosing Browser " + config.getProperty("browserType"));
-		if(config.getProperty("browserType").equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"\\drivers\\chromedriver.exe");
-			driver = new ChromeDriver();
-	}else if(config.getProperty("browserType").equals("firefox")){
-		driver = new FirefoxDriver();
-	}
+		h.drivers();
 
 	}
 	

@@ -17,12 +17,12 @@
       <![CDATA[Test4_Collection_links success]]>
     </line>
   </reporter-output>
-  <suite name="TestAll" duration-ms="252174" started-at="2014-09-24T09:30:43Z" finished-at="2014-09-24T09:34:55Z">
+  <suite name="TestAll" duration-ms="275375" started-at="2014-09-24T10:08:46Z" finished-at="2014-09-24T10:13:22Z">
     <groups>
     </groups>
-    <test name="Cleartrip" duration-ms="252174" started-at="2014-09-24T09:30:43Z" finished-at="2014-09-24T09:34:55Z">
+    <test name="Cleartrip" duration-ms="275375" started-at="2014-09-24T10:08:46Z" finished-at="2014-09-24T10:13:22Z">
       <class name="Tests.Test3_Reviews">
-        <test-method status="PASS" signature="Hotel_Reviews()[pri:0, instance:Tests.Test3_Reviews@de4f4b]" name="Hotel_Reviews" duration-ms="45410" started-at="2014-09-24T15:01:28Z" finished-at="2014-09-24T15:02:13Z">
+        <test-method status="PASS" signature="Hotel_Reviews()[pri:0, instance:Tests.Test3_Reviews@102c93e]" name="Hotel_Reviews" duration-ms="43941" started-at="2014-09-24T15:39:36Z" finished-at="2014-09-24T15:40:20Z">
           <reporter-output>
             <line>
               <![CDATA[Test3_Hotel_Reviews success]]>
@@ -31,7 +31,7 @@
         </test-method> <!-- Hotel_Reviews -->
       </class> <!-- Tests.Test3_Reviews -->
       <class name="Tests.Test5_Verify_Collection_links">
-        <test-method status="PASS" signature="Collections()[pri:0, instance:Tests.Test5_Verify_Collection_links@1af5350]" name="Collections" duration-ms="146342" started-at="2014-09-24T15:02:29Z" finished-at="2014-09-24T15:04:55Z">
+        <test-method status="PASS" signature="Collections()[pri:0, instance:Tests.Test5_Verify_Collection_links@3a2053]" name="Collections" duration-ms="165346" started-at="2014-09-24T15:40:36Z" finished-at="2014-09-24T15:43:22Z">
           <reporter-output>
             <line>
               <![CDATA[Test4_Collection_links success]]>
@@ -39,34 +39,34 @@
           </reporter-output>
         </test-method> <!-- Collections -->
       </class> <!-- Tests.Test5_Verify_Collection_links -->
-      <class name="Tests.Test2_Button_Check">
-        <test-method status="PASS" signature="left_right_button()[pri:0, instance:Tests.Test2_Button_Check@12471dc]" name="left_right_button" duration-ms="26210" started-at="2014-09-24T15:01:01Z" finished-at="2014-09-24T15:01:28Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test2_Button_Check Success]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- left_right_button -->
-      </class> <!-- Tests.Test2_Button_Check -->
       <class name="Tests.Test4_Flights_Currency">
-        <test-method status="PASS" signature="Initialize()[pri:0, instance:Tests.Test4_Flights_Currency@e8efc5]" name="Initialize" is-config="true" duration-ms="2465" started-at="2014-09-24T15:00:40Z" finished-at="2014-09-24T15:00:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Initialize -->
-        <test-method status="PASS" signature="Currency()[pri:0, instance:Tests.Test4_Flights_Currency@e8efc5]" name="Currency" duration-ms="15734" started-at="2014-09-24T15:02:13Z" finished-at="2014-09-24T15:02:29Z">
+        <test-method status="PASS" signature="Currency()[pri:0, instance:Tests.Test4_Flights_Currency@97447e]" name="Currency" duration-ms="16534" started-at="2014-09-24T15:40:20Z" finished-at="2014-09-24T15:40:36Z">
           <reporter-output>
             <line>
               <![CDATA[Test4_Flights_Currency success]]>
             </line>
           </reporter-output>
         </test-method> <!-- Currency -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Tests.Test4_Flights_Currency@e8efc5]" name="afterSuite" is-config="true" duration-ms="1923" started-at="2014-09-24T15:04:55Z" finished-at="2014-09-24T15:04:57Z">
+      </class> <!-- Tests.Test4_Flights_Currency -->
+      <class name="Tests.Test2_Button_Check">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Tests.Test2_Button_Check@2e983d]" name="Initialize" is-config="true" duration-ms="10112" started-at="2014-09-24T15:38:36Z" finished-at="2014-09-24T15:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="left_right_button()[pri:0, instance:Tests.Test2_Button_Check@2e983d]" name="left_right_button" duration-ms="27131" started-at="2014-09-24T15:39:09Z" finished-at="2014-09-24T15:39:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test2_Button_Check Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- left_right_button -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Tests.Test2_Button_Check@2e983d]" name="afterSuite" is-config="true" duration-ms="34" started-at="2014-09-24T15:43:22Z" finished-at="2014-09-24T15:43:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- Tests.Test4_Flights_Currency -->
+      </class> <!-- Tests.Test2_Button_Check -->
       <class name="Tests.Test1_Signing_in">
-        <test-method status="PASS" signature="URL_Opening()[pri:0, instance:Tests.Test1_Signing_in@186d315]" name="URL_Opening" duration-ms="18457" started-at="2014-09-24T15:00:43Z" finished-at="2014-09-24T15:01:01Z">
+        <test-method status="PASS" signature="URL_Opening()[pri:0, instance:Tests.Test1_Signing_in@1ea310c]" name="URL_Opening" duration-ms="22385" started-at="2014-09-24T15:38:46Z" finished-at="2014-09-24T15:39:09Z">
           <reporter-output>
             <line>
               <![CDATA[Test1_Signing_URL success]]>

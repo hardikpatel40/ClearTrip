@@ -1,11 +1,11 @@
-24/09/2014 14:41:23 devpinoyLogger Starting testsuite and loading config files
-24/09/2014 14:41:23 devpinoyLogger loading OR files
-24/09/2014 14:41:37 devpinoyLogger LOGGED IN SUCCESSFULLY WITH USERNAME AND PASSWORD
-24/09/2014 14:41:58 devpinoyLogger Right button is working properly
-24/09/2014 14:42:09 devpinoyLogger Left button is working properly
-24/09/2014 14:42:50 devpinoyLogger Total number of hotels found is = 20
-24/09/2014 14:42:55 devpinoyLogger Randomly Currency selected is = Currency  AUD $
-24/09/2014 14:43:04 devpinoyLogger Searched flight result currency is in $
-24/09/2014 14:43:04 devpinoyLogger CURRENCY AMOUNT IS MATCHED
-24/09/2014 14:43:26 devpinoyLogger Total main links is = 8
-24/09/2014 14:44:12 devpinoyLogger Total number of links is= 76
+24/09/2014 15:38:36 devpinoyLogger Starting testsuite and loading config files
+24/09/2014 15:38:36 devpinoyLogger loading OR files
+24/09/2014 15:39:02 devpinoyLogger LOGGED IN SUCCESSFULLY WITH USERNAME AND PASSWORD
+24/09/2014 15:39:25 devpinoyLogger Right button is working properly
+24/09/2014 15:39:36 devpinoyLogger Left button is working properly
+24/09/2014 15:40:15 devpinoyLogger Total number of hotels found is = 20
+24/09/2014 15:40:29 devpinoyLogger Randomly Currency selected is = Currency  NPR
+24/09/2014 15:40:36 devpinoyLogger Searched flight result currency is in NPR
+24/09/2014 15:40:36 devpinoyLogger CURRENCY AMOUNT IS MATCHED
+24/09/2014 15:40:50 devpinoyLogger Total main links is = 8
+24/09/2014 15:41:59 devpinoyLogger Total number of links is= 76

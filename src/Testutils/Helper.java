@@ -9,20 +9,22 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import Tests.TestBase;
 
 
 public class Helper extends TestBase{
 	
-/*	public void drivers(){
+	public void drivers(){
 		if(config.getProperty("browserType").equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 	}else if(config.getProperty("browserType").equals("firefox")){
 		driver = new FirefoxDriver();
 	}
-}*/
+}
 	
 	public void sleep(int seconds){
 		try{

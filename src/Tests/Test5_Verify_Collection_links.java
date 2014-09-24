@@ -43,7 +43,7 @@ public class Test5_Verify_Collection_links extends TestBase{
 	  //Clicking all links under collections 
 	  for(int i=0;i<coll_links.size();i++){
 		  coll_links.get(i).findElement(By.tagName(OR.getProperty("collection_ele"))).click();
-		  System.out.println("Clicking " +(i+1) +" " +coll_links.get(i).findElement(By.tagName(OR.getProperty("collection_ele"))).getText());
+		  System.out.println("Clicking " +(i+1) +": " +coll_links.get(i).findElement(By.tagName(OR.getProperty("collection_ele"))).getText());
 		  System.out.println("Collecting all href's under :" +coll_links.get(i).findElement(By.tagName(OR.getProperty("collection_ele"))).getText());
 		  System.out.println("\n");
 		  h.sleep(2);
