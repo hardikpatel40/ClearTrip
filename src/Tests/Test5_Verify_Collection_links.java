@@ -64,14 +64,17 @@ public class Test5_Verify_Collection_links extends TestBase{
 	  	List<String> all = new ArrayList<String>(all_links);
 		System.out.println("Total number of links is= " +all.size());
 		APPLICATION_LOGS.debug("Total number of links is= " +all.size());
+		System.out.println("Taking first 10 href's");
 		
 		//Clicking all the hrefs
-		for(int k=0;k<all.size()-70;k++){
+		for(int k=0;k<all.size()-66;k++){
 			System.out.println("Clicking " +(k+1) +":" +all.get(k));
 		  driver.get(all.get(k));
 		  h.sleep(2);
 		}
 		System.out.println("\n");
 		Reporter.log("Test4_Collection_links success");
+		
+		System.out.println("**********************COMPLETED SUCCESSFULLY****************************");
   }
 }

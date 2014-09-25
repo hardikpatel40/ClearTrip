@@ -1,7 +1,6 @@
 package Testutils;
 import java.io.File;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 import org.apache.commons.io.FileUtils;
@@ -55,12 +54,6 @@ public class Helper extends TestBase{
 		FileUtils.copyFile(srcfile, new File(config.getProperty("screenShotsPath") +"//" +filename+".jpg"));
 	}
 	
-	
-	public void login(String email,String password) throws UnsupportedEncodingException, InterruptedException {
-		System.out.println(String.format("Signing it with %s/%s from header login" ,email,password));
 		
-	
-		return;
-	}	
 }
 
