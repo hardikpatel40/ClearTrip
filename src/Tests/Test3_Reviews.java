@@ -68,14 +68,14 @@ public class Test3_Reviews extends TestBase{
 	 h.sleep(10);
 	 
 	 //********************************************************************
-	 System.out.println("Collecting list of all hotels:::");
+	 System.out.println("Collecting list of all hotels...");
 	 h.takescreenshot("test3_hotel_reviews");
 	 List<WebElement> hotels_list = driver.findElement(By.xpath(OR.getProperty("hotel_cont"))).findElements(By.cssSelector(OR.getProperty("hotels_list")));
 	 
 	 if(hotels_list.size()==0){
 		 Assert.fail("Container hotels_list element is incorrect");
 	 }else{
-	 System.out.println("Total number of hotels found is = " +hotels_list.size());
+	 System.out.println("TOTAL NUMBER OF HOTELS FOUND IS = " +(hotels_list.size()-1));
 	 APPLICATION_LOGS.debug("Total number of hotels found is = " +hotels_list.size());
 	 for(int i=0;i<hotels_list.size()-1;i++){
 		 System.out.println(hotels_list.get(i).findElement(By.cssSelector(OR.getProperty("hotel_name"))).getText());
@@ -89,6 +89,7 @@ public class Test3_Reviews extends TestBase{
 		 }
 	 }
 	  } 
+	 System.out.println("--------TEST CASE 3 COMPLETED-----------");
 	 System.out.println("\n");
 	 Reporter.log("Test3_Hotel_Reviews success");
   }

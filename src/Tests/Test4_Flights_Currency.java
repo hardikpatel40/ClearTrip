@@ -22,7 +22,7 @@ public class Test4_Flights_Currency extends TestBase{
 	  System.out.println("            FOURTH TEST CASE                ");
 	  System.out.println("********************************************");
 	  driver.get(config.getProperty("url") + "/flights");
-	  System.out.println(driver.getCurrentUrl());
+	  System.out.println("GETTING URL " +driver.getCurrentUrl());
 	  
 	  //Clicking the currency container
 	  driver.findElement(By.cssSelector(OR.getProperty("currency_button"))).click();
@@ -40,7 +40,7 @@ public class Test4_Flights_Currency extends TestBase{
 	  a.moveToElement(currency_cont.get(rand_cur)).click();
 	  a.perform();
 	  String abc = driver.findElement(By.cssSelector(OR.getProperty("currency_select"))).getText();
-	  System.out.println("Randomly Currency selected is = " +abc);
+	  System.out.println("RANDOMLY CURRENCY SELECTED IS = " +abc);
 	  APPLICATION_LOGS.debug("Randomly Currency selected is = " +abc);
 	 
 	 
@@ -63,9 +63,10 @@ public class Test4_Flights_Currency extends TestBase{
 	 List<WebElement> verify_rs = driver.findElement(By.cssSelector(OR.getProperty("verify_currency_cont"))).findElements(By.tagName(OR.getProperty("verify_currency_tag")));
 	 String final_rs = verify_rs.get(0).getText();
 	 String str[] = final_rs.split("[0-9]");
-	 System.out.println("Searched flight result currency is in " +str[0]);
+	 System.out.println("SEARCHED FLIGHT RESULT CURRENCY IS IN: " +str[0]);
 	 APPLICATION_LOGS.debug("Searched flight result currency is in " +str[0]);
 
+	 System.out.println("MATCHING ABOVE TWO CURRENCIES");
 	 if(abc.contains(str[0])){
 		 System.out.println("CURRENCY AMOUNT IS MATCHED");
 		 APPLICATION_LOGS.debug("CURRENCY AMOUNT IS MATCHED");
@@ -75,6 +76,7 @@ public class Test4_Flights_Currency extends TestBase{
 		 APPLICATION_LOGS.debug("CURRENCY AMOUNT NOT MATCHED");
 
 	 }
+	 System.out.println("--------TEST CASE 4 COMPLETED-----------");
 	 System.out.println("\n");
 	 Reporter.log("Test4_Flights_Currency success");
 	}

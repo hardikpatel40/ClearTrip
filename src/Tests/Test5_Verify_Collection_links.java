@@ -34,7 +34,7 @@ public class Test5_Verify_Collection_links extends TestBase{
 	  if(coll_links.size()==0){
 		  Assert.fail("Main Collection container element is incorrect");
 	  }
-	  System.out.println("Total main links is = " +coll_links.size());
+	  System.out.println("TOTAL MAIN LINKS IS = " +coll_links.size());
 	  APPLICATION_LOGS.debug("Total main links is = " +coll_links.size());
 	  
 	//Getting all links href's into hashset
@@ -44,7 +44,7 @@ public class Test5_Verify_Collection_links extends TestBase{
 	  for(int i=0;i<coll_links.size();i++){
 		  coll_links.get(i).findElement(By.tagName(OR.getProperty("collection_ele"))).click();
 		  System.out.println("Clicking " +(i+1) +": " +coll_links.get(i).findElement(By.tagName(OR.getProperty("collection_ele"))).getText());
-		  System.out.println("Collecting all href's under :" +coll_links.get(i).findElement(By.tagName(OR.getProperty("collection_ele"))).getText());
+		  System.out.println("COLLECTING ALL href's UNDER :" +coll_links.get(i).findElement(By.tagName(OR.getProperty("collection_ele"))).getText());
 		  System.out.println("\n");
 		  h.sleep(2);
 		  List<WebElement> links_cont = driver.findElement(By.id(OR.getProperty("collections_links_href"))).findElements(By.tagName(OR.getProperty("href_tag")));
@@ -62,9 +62,9 @@ public class Test5_Verify_Collection_links extends TestBase{
 	
 	  //Converting hashset to list
 	  	List<String> all = new ArrayList<String>(all_links);
-		System.out.println("Total number of links is= " +all.size());
+		System.out.println("TOTAL NUMBER OF LINKS ARE= " +all.size());
 		APPLICATION_LOGS.debug("Total number of links is= " +all.size());
-		System.out.println("Taking first 10 href's");
+		System.out.println("TAKING FIRST 10 href's");
 		
 		//Clicking all the hrefs
 		for(int k=0;k<all.size()-66;k++){
@@ -72,6 +72,7 @@ public class Test5_Verify_Collection_links extends TestBase{
 		  driver.get(all.get(k));
 		  h.sleep(2);
 		}
+		System.out.println("--------TEST CASE 5 COMPLETED-----------");
 		System.out.println("\n");
 		Reporter.log("Test4_Collection_links success");
 		

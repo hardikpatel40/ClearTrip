@@ -24,7 +24,8 @@ public class Test1_Signing_in extends TestBase {
 		  Assert.fail("Server cannot found particular URL");
 		  h.takescreenshot("Test1_URL");
 	  }else if(driver.getTitle().equals("Cleartrip | Flights, Hotels, Packages, Buses, Trains")){
-		  System.out.println("URL found");
+		  System.out.println("URL FOUND");
+		  System.out.println("URL is =" +driver.getCurrentUrl());
 	  }
 	  
 	  driver.get(config.getProperty("url") + "signin" );
@@ -39,6 +40,7 @@ public class Test1_Signing_in extends TestBase {
 	  driver.findElement(By.id(OR.getProperty("signin_button_id"))).click();
 	  System.out.println("LOGGED IN SUCCESSFULLY WITH USERNAME AND PASSWORD");
 	  APPLICATION_LOGS.debug("LOGGED IN SUCCESSFULLY WITH USERNAME AND PASSWORD");
+	  System.out.println("--------TEST CASE 1 COMPLETED-----------");
 	  Reporter.log("Test1_Signing_URL success");
 	  System.out.println("\n");
 	  h.sleep(4);

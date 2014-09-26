@@ -49,8 +49,8 @@ public class Test2_Button_Check extends TestBase{
 	  }
 	  //Comparing indexes with before click and after click
 	  if(m==l){
-	  System.out.println("Right button is working properly");
-	  APPLICATION_LOGS.debug("Right button is working properly");
+	  System.out.println("RIGHT BUTTON IS WORKING PROPERLY");
+	  APPLICATION_LOGS.debug("RIGHT BUTTON IS WORKING PROPERLY");
 	  }else{
 		  Assert.fail("RIGHT BUTTON ERROR");
 	  }
@@ -72,12 +72,12 @@ public class Test2_Button_Check extends TestBase{
 	 
 	  //Comparing indexes with before click and after click
 	  if(l==k){
-	  System.out.println("Left button is working properly");
-	  APPLICATION_LOGS.debug("Left button is working properly");
+	  System.out.println("LEFT BUTTON IS WORKING PROPERLY");
+	  APPLICATION_LOGS.debug("LEFT BUTTON IS WORKING PROPERLY");
 	  }else{
 		  Assert.fail("LEFT BUTTON ERROR");
 	  }
-	  
+	  System.out.println("--------TEST CASE 2 COMPLETED-----------");
 	  System.out.println("\n");
 	  Reporter.log("Test2_Button_Check Success");	 
   }
